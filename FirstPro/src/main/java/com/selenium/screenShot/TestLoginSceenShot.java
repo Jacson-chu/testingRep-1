@@ -16,7 +16,7 @@ import com.utils.TestBase;
 public class TestLoginSceenShot extends TestBase {
 	@Test
 	public void test() throws InterruptedException {
-		driver.get("http://localhost:5555/ecshop");
+		driver.get("http://localhost/ecshop");
 		IndexPage indexPage=new IndexPage(driver);
 		indexPage.loginLink_click();
 		LoginPage loginPage=new LoginPage(driver);
